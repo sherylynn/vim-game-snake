@@ -16,10 +16,10 @@ let s:config = {
 let s:seed = localtime()
 
 let s:item = {
-            \ 'wall': 'W',
-            \ 'body': 'B',
-            \ 'food': 'F',
-            \ 'empty': ' ',
+            \ 'wall': 'Ｗ',
+            \ 'body': 'Ｂ',
+            \ 'food': 'Ｆ',
+            \ 'empty': '　',
             \ }
 
 let s:snake = [ { 'x' : 1 , 'y' : 1 } ]
