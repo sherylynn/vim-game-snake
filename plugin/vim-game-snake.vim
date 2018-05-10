@@ -240,10 +240,10 @@ endfunction
 
 "
 function! s:setColor()
-    syntax match wall 'W'
-    syntax match snakeHEAD 'H'
-    syntax match snakeBody 'B'
-    syntax match snakeFood 'F'
+    syntax match wall 'Ｗ'
+    syntax match snakeHEAD 'Ｈ'
+    syntax match snakeBody 'Ｂ'
+    syntax match snakeFood 'Ｆ'
     highlight wall ctermfg=blue ctermbg=blue guifg=blue guibg=blue
     highlight snakeBody ctermfg=green ctermbg=green guifg=green guibg=green
     highlight snakeFood ctermfg=red ctermbg=red guifg=red guibg=red
